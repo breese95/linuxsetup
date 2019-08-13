@@ -17,3 +17,4 @@ apt-get install r-base-dev -y
 apt-get install exfat-fuse exfat-utils -y
 #SET VLC AS DEFAULT AUDIO AND DEFAULT VIDEO
 #DOWNLOAD AND INSTALL VSCODE, RSTUDIO, JAVA RUNTIME ENVIRONEMNET, JAVA DEVELOPMENT KIT, NETBEANS, APACHE XAMPP
+#code . --install-extension ms-python.python ms-vscode.cpptools ms-vscode.csharp ms-azuretools.vscode-docker redhat.java octref.vetur ms-vscode.go --force
