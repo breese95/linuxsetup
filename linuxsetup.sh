@@ -20,10 +20,12 @@ apt-get install r-base -y
 apt-get install r-base-dev -y
 apt install default-jre -y
 apt install default-jdk -y
+apt install nodejs -y
+apt install npm -y
 apt install snapd -y
-export PATH="$PATH:/snap/bin"
 snap install go --classic
 snap install code --classic
+export PATH="$PATH:/snap/bin"
 code --install-extension ms-python.python --force --user-data-dir
 code --install-extension felixfbecker.php-intellisense --force --user-data-dir
 code --install-extension ms-vscode.cpptools --force --user-data-dir
@@ -51,6 +53,8 @@ echo "Java Runtime Environment"
 java --version
 echo "Java Development Kit"
 javac --version
+echo "NodeJS"
+nodejs --version
 echo "GO"
 go version
 echo ""
