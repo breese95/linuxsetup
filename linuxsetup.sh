@@ -19,8 +19,8 @@ apt-get install r-base -y
 apt-get install r-base-dev -y
 apt-get install php -y
 apt install snapd -y
+export PATH="$PATH:/snap/bin"
 snap install go --classic
-snap install notepad-plus-plus
 snap install code --classic
 code --install-extension ms-python.python --force --user-data-dir
 code --install-extension felixfbecker.php-intellisense --force --user-data-dir
