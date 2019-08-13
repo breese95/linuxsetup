@@ -14,11 +14,13 @@ pip install --upgrade pip -y
 alias pip=pip3
 apt-get install r-base -y
 apt-get install r-base-dev -y
+apt-get install php -y
 apt-get install exfat-fuse exfat-utils -y
 apt install vlc -y
-apt install snap -y
-snap install --classic code -y
+apt install snapd -y
+snap install code --classic -y
 code --install-extension ms-python.python --force --user-data-dir
+code --install-extension felixfbecker.php-intellisense --force --user-data-dir
 code --install-extension ms-vscode.cpptools --force --user-data-dir
 code --install-extension ms-vscode.csharp --force --user-data-dir
 code --install-extension ms-azuretools.vscode-docker --force --user-data-dir
