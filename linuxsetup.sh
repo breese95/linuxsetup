@@ -4,6 +4,8 @@ apt-get update -y
 apt-get upgrade -y
 apt update -y
 apt upgrade -y
+apt-get install exfat-fuse exfat-utils -y
+apt install vlc -y
 apt install python -y
 apt install python3 -y
 alias python=python3
@@ -18,10 +20,8 @@ apt-get install r-base-dev -y
 apt-get install php -y
 apt install snapd -y
 snap install go --classic
-snap install code --classic
 snap install notepad-plus-plus
-apt-get install exfat-fuse exfat-utils -y
-apt install vlc -y
+snap install code --classic
 code --install-extension ms-python.python --force --user-data-dir
 code --install-extension felixfbecker.php-intellisense --force --user-data-dir
 code --install-extension ms-vscode.cpptools --force --user-data-dir
