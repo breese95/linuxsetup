@@ -54,7 +54,6 @@ PATH="$PATH:/snap/bin"
 EOF1
 
 source /etc/environment
-
 echo ""
 echo "LINUX SETUP ADDITIONAL STEPS..."
 echo ""
