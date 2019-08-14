@@ -12,8 +12,6 @@ alias python=python3
 apt install python-pip -y
 apt install python3-pip -y
 alias pip=pip3
-pip install --upgrade pip
-alias pip=pip3
 apt install docker.io -y
 apt-get install php -y
 apt-get install r-base -y
