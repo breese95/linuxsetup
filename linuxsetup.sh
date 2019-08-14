@@ -25,15 +25,6 @@ apt install npm -y
 apt install snapd -y
 snap install go --classic
 snap install code --classic
-export PATH="$PATH:/snap/bin"
-code --install-extension ms-python.python --force --user-data-dir
-code --install-extension felixfbecker.php-intellisense --force --user-data-dir
-code --install-extension ms-vscode.cpptools --force --user-data-dir
-code --install-extension ms-vscode.csharp --force --user-data-dir
-code --install-extension ms-azuretools.vscode-docker --force --user-data-dir
-code --install-extension redhat.java --force --user-data-dir
-code --install-extension octref.vetur --force --user-data-dir
-code --install-extension ms-vscode.go --force --user-data-dir
 echo ""
 echo "PROGRAMS INSTALLED..."
 echo "Visual Studio Code"
@@ -56,11 +47,18 @@ javac --version
 echo "NodeJS"
 nodejs --version
 echo "GO"
-go version
+/snap/bin/go version
+
+cat > /etc/environment << EOF1
+PATH="$PATH:/snap/bin"
+EOF1
+
+source /etc/environment
+
 echo ""
 echo "LINUX SETUP ADDITIONAL STEPS..."
+echo ""
+echo "RESTART COMPUTER TO INITALIZE ENVIROMENT PATH CHANGE"
 echo "Settings -> Details -> Default Applications -> SET 'Music' & 'Video' TO 'VLC media player'"
 echo "Download & Install 'R Studio' @ https://www.rstudio.com/"
-echo "Download & Install 'Netbeans' @ https://netbeans.org/"
-echo "Download & Install 'XAMPP' @ https://www.apachefriends.org/"
 echo "Download & Install 'AdBlock' @ https://getadblock.com/"
