@@ -28,8 +28,11 @@ apt install npm -y
 apt install snapd -y
 snap install go --classic
 snap install code --classic
+
 cat > /etc/environment << EOF1
 PATH="$PATH:/snap/bin"
 EOF1
+
 source /etc/environment
+
 reboot
