@@ -15,6 +15,7 @@ apt install python -y
 apt install python3 -y
 alias python=python3
 apt install python-pip -y
+#pip install --upgrade pip #waiting to see if this command PROMPTS? or does not prompt?
 apt install python3-pip -y
 alias pip=pip3
 apt install docker.io -y
