@@ -26,6 +26,7 @@ apt install default-jre -y
 apt install default-jdk -y
 apt install nodejs -y
 apt install npm -y
+npm install -g @vue/cli
 apt install snapd -y
 snap install go --classic
 snap install code --classic
