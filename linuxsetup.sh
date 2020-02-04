@@ -18,18 +18,7 @@ apt install python-pip -y
 apt install python3-pip -y
 alias pip=pip3
 pip3 install --upgrade pip
-apt install docker.io -y
-apt-get install php -y
-apt-get install r-base -y
-apt-get install r-base-dev -y
-apt install default-jre -y
-apt install default-jdk -y
-apt install nodejs -y
-apt install npm -y
-npm install -g @vue/cli
-apt install snapd -y
-snap install go --classic
-snap install code --classic
+
 
 export PATH=$PATH:/snap/bin
 
